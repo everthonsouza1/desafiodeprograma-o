@@ -1,0 +1,88 @@
+algoritmo "Escada"
+var
+
+esc: vetor [1..6, 1..6] de caractere
+
+inicio
+
+esc [1,1] <-(" ")
+esc [1,2] <-(" ")
+esc [1,3] <-(" ")
+esc [1,4] <-(" ")
+esc [1,5] <-(" ")
+esc [1,6] <-("*")
+esc [2,1] <-(" ")
+esc [2,2] <-(" ")
+esc [2,3] <-(" ")
+esc [2,4] <-(" ")
+esc [2,5] <-("*")
+esc [2,6] <-("*")
+esc [3,1] <-(" ")
+esc [3,2] <-(" ")
+esc [3,3] <-(" ")
+esc [3,4] <-("*")
+esc [3,5] <-("*")
+esc [3,6] <-("*")
+esc [4,1] <-(" ")
+esc [4,2] <-(" ")
+esc [4,3] <-("*")
+esc [4,4] <-("*")
+esc [4,5] <-("*")
+esc [4,6] <-("*")
+esc [5,1] <-(" ")
+esc [5,2] <-("*")
+esc [5,3] <-("*")
+esc [5,4] <-("*")
+esc [5,5] <-("*")
+esc [5,6] <-("*")
+esc [6,1] <-("*")
+esc [6,2] <-("*")
+esc [6,3] <-("*")
+esc [6,4] <-("*")
+esc [6,5] <-("*")
+esc [6,6] <-("*")
+
+escreva  (esc [1,1])
+escreva  (esc [1,2])
+escreva  (esc [1,3])
+escreva  (esc [1,4])
+escreva  (esc [1,5])
+escreval (esc [1,6])
+
+escreva  (esc [2,1])
+escreva  (esc [2,2])
+escreva  (esc [2,3])
+escreva  (esc [2,4])
+escreva  (esc [2,5])
+escreval (esc [2,6])
+
+escreva  (esc [3,1])
+escreva  (esc [3,2])
+escreva  (esc [3,3])
+escreva  (esc [3,4])
+escreva  (esc [3,5])
+escreval (esc [3,6])
+
+escreva  (esc [4,1])
+escreva  (esc [4,2])
+escreva  (esc [4,3])
+escreva  (esc [4,4])
+escreva  (esc [4,5])
+escreval (esc [4,6])
+
+escreva  (esc [5,1])
+escreva  (esc [5,2])
+escreva  (esc [5,3])
+escreva  (esc [5,4])
+escreva  (esc [5,5])
+escreval (esc [5,6])
+
+escreva  (esc [6,1])
+escreva  (esc [6,2])
+escreva  (esc [6,3])
+escreva  (esc [6,4])
+escreva  (esc [6,5])
+escreval (esc [6,6])
+
+
+fimalgoritmo
